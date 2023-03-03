@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.upper-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  
+}
+
+.upper-left-container {
+  margin-right: 30px;
+  
+}
+
+
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding: 35px 10px 10px 10px;
+  align-items: center;
+  background-color: white;
+}
+
+.login-box img {
+  width: 200px;
+  margin-bottom: 30px;
+  margin: 0 auto 30px auto;
+}
+
+#email-box, #password-box {
+  width: 250px;
+  border-radius: 5px;
+  background-color: #FAFAFA;
+}
+
+#email-box::placeholder, #password-box::placeholder {
+  color: rgb(164, 161, 161);
+}
+
+#email-box {
+  margin-bottom: 5px;
+  font-size: 12px;
+  padding: 10px;
+  border: 1px solid rgb(205, 203, 203);
+}
+
+#password-box { 
+  font-size: 12px;
+  padding: 10px;
+  border: 1px solid rgb(205, 203, 203);
+}
+
+#login-button {
+  background-color: #67B6FA;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 250px;
+  margin-top: 15px;
+}
+
+.login-box-upper-container {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.or-div {
+  position: relative;
+  bottom: 9px;
+  font-size: 13px;
+  color: gray;
+  background-color: white;
+  padding: 0 15px;
+}
+
+.login-box-lower-container {
+  text-align: center;
+  
+}
+
+.login-box-lower-container img {
+  width: 19px;
+  display: inline-block;
+  margin: 0;
+  
+}
+
+.login-p {
+  display: inline-block;
+  padding: 5px;
+  color: #1D4374;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.login-forgot {
+  font-size: 13px;
+  color: #1D4374;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.sign-up-box {
+  border: 1px solid lightgray;
+  width: 350px;
+  text-align: center;
+  margin-top: 12px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  background-color: white;
+}
+
+.sign-up-link {
+  color: #4095F6;
+}
+
+.get-the-app-box {
+  text-align: center;
+  width: 350px;
+  font-size: 14px;
+  padding-top: 8px;
+}
+
+.get-the-app-box img {
+  width: 140px;
+}
